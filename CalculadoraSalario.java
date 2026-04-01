@@ -38,7 +38,6 @@ public class CalculadoraSalario {
 
                     System.out.print("Digite o seu número de registro: ");
                     numeroRegistro = sc.nextInt();
-                    matricula.add(numeroRegistro);
 
                     if(numeroRegistro < 1){
                         System.out.println("Número de registro inválido!");
